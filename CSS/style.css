@@ -1,0 +1,609 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        /* margin: 30px; */
+        
+    }
+
+    .navbar{ 
+        height: 15%;
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+    }
+
+    .logo{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+
+    .logo img{
+        height: 90%;
+        width: 80%;
+    }
+
+    .list{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+            
+    }
+
+    .list button{
+        margin-right: 30px;
+        
+    }
+    .list a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .list li{
+        margin: 10px;
+    }
+
+    .pic{
+        height: 85%;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        background-image: url(/Images/banner.webp);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .pic button{
+        height: 10%;
+        width: 20%;
+        background-color: orangered;
+        border: none;
+        border-radius: 30px;
+    
+    }
+
+    .pic h1{
+        font-size: 40px;
+        color: #484848;
+    }
+
+    .pic p{
+        font-size: 20;
+        margin-top: 20px;
+         
+
+    }
+
+    .pic button{
+        color: white;
+        font-size:  20px;
+        margin-bottom: 30;
+        height: 10%;
+        width: 130px;
+        margin-top: 15px;
+    }
+
+    .list button{ 
+        border: none;
+        background-color: orangered;
+        border-radius: 30px;
+        height: 50%;
+        width: 10%;
+        color: white;
+    }
+
+    .page2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .page2 h1{
+            margin-top: 30px;
+        }
+      
+
+
+    .big{
+        height: 80%;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-evenly;
+        /* margin-top: 40px; */
+    }
+    .convenience{
+        height: 100%;
+        width: 25%;
+        /* background-color: azure; */
+        
+    }
+
+    .convenience img{
+        height: 60%;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .variety{
+        height: 100%;
+        width: 25%;
+        /* background-color: black; */
+        
+    }
+
+            .convenience p{
+                margin: 10px;
+            }
+
+            .variety p{
+                margin: 10px;
+            }
+
+                .deliciousness p{
+                    margin: 2px;
+                }
+
+            .variety img{
+                height: 60%;
+                width: 100%;
+                border-radius: 20px;
+            }
+    
+    .deliciousness{
+        height: 100%;
+        width: 25%;
+        /* background-color: blue; */
+        /* background-image: url(/Images/salmon_katsu.webp);
+        background-size: cover; */
+
+    }
+
+            .deliciousness img{
+                height: 60%;
+                width: 100%;
+                border-radius: 20px;
+            }
+    
+
+ .page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+ }
+
+ .left{
+    height: 100%;
+    width: 50%;
+    background-image: url(/Images/Family_cooking.webp);
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    
+}
+   
+.right{
+
+    height: 100%;
+    width: 50%;
+    background-color: #FBE6DE;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+ 
+}
+
+
+.listi{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+.listi li{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+
+}
+.listi h1{
+    margin: auto;
+    text-transform: capitalize;
+    
+    
+}
+
+
+
+
+.listi button{
+    height: 45px;
+    width: 30%;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+        .page4 button{
+            height: 10%;
+            width: 15%;
+            background-color: #E42A12;
+            border-radius: 40px;
+            margin-top: 30px;
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+            
+        
+        .page4 p{
+            font-size: 20px;
+        }
+
+
+    .master{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+    }
+            .vegan{
+                height: 100%;
+                width: 30%;
+            }
+
+            .weekly{
+                height: 100%;
+                width: 30%;
+            }
+
+
+            .vegeterian{
+                height: 100%;
+                width: 30%;
+
+            }
+    .vegan img{
+            height: 100%;
+            width: 100%;
+            border-radius: 20px      
+            
+    }
+        .circle {
+            height: 10%;
+            width: 20%;
+            background-color: #D8F4A4;
+            position: relative;
+            bottom: 35px;
+            left: 80%;
+            border-radius: 20px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+        }
+    .weekly img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+            .wclassic{
+                height: 10%;
+                width: 35%;
+                background-color: #D9E3FE;
+                position: relative;
+                bottom: 35px;
+                left: 65%;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .veg{
+                height: 10%;
+                width: 35%;
+                background-color: #C8F5DA;
+                position: relative;
+                bottom: 35px;
+                left: 65%;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+                    .veg img{
+                        height: 70%;
+                        width: 60%;
+                    }
+
+    .vegeterian img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+
+    .page5{
+        height: 100vh;
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+      .page5 h2{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .page5 p{
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .center{
+        height: 40%;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        
+      }
+
+      .one{
+        height: 100%;
+        width: 20%;
+      }
+
+            .one img{
+                height: 100%;
+                width: 100%;
+            }
+            .two img{
+                height: 100%;
+                width: 100%;
+            }
+            .three img{
+                height: 100%;
+                width: 100%;
+            }
+            .four img{
+                height: 100%;
+                width: 100%;
+            }
+      .two{
+        height: 100%;
+        width: 20%;
+      }  
+      
+      .three{
+        height: 100%;
+        width: 20%;
+      }
+      .four{
+        height: 100%;
+        width: 20%;
+      }
+
+      .social{
+        height: 2%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .page6{
+        height: 100vh;
+        width: 100%;
+        /* background-color:#E42A12; */
+        
+        
+      }
+
+
+            .up{
+                height: 40%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                 align-items: center;
+                 border-color: #F3F4F6;
+            }
+
+            .inside{
+                /* border: 1px solid black ;
+                 */
+                 border-radius: 0px;
+                 background: #e0e0e0;
+                 box-shadow: 5px -5px 19px #afafaf, -5px 5px 19px #ffffff;
+            }
+
+            .down{
+                height: 90%;
+                width: 100%;
+                background-image: url(/Images/subscribe.webp);
+                background-size: cover;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+
+                flex-direction: column;
+
+    
+            }
+
+
+            .subscriber{
+                height: 30%;
+                width: 60%;
+                background-color: white;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 50px;
+            }
+
+           .isubscriber{
+            height: 10%;
+            width: 70%;
+            
+
+           }
+
+           .subscriber button{
+             background-color: orangered;
+             border: none;
+             height: 25px;
+             width: 60px;
+             color: white;
+           }
+
+.story{
+    margin-top: 40px;
+}
+
+.story p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.page7{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+
+.page7 img{
+    height: 10%;
+    width: 10%;
+    
+}
+
+.footer{
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+    .news{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        /* margin-right: 52%; */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .new{
+        height: 20%;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    .new input{
+        height: 80%;
+        width: 50%;
+    }
+
+    .new button{
+        height: 98%;
+        width: 40%;
+        background-color: orangered;
+        border-radius: 20px;
+        /* margin-right: 10px; */
+    }
+
+    
+
+
+
+       
+    .letter img{
+        height: 10px;
+        width: 10px;
+
+    }
+
+    .footer2{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+
+
+    .news h5{
+
+        margin-right: 48%;
+        margin-bottom: 10px;
+
+    }
+
+    .news label{
+        margin-right: 63%;
+        /* margin-bottom: 0px; */
+        
+
+    }
